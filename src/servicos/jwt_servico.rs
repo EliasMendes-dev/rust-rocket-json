@@ -1,5 +1,3 @@
-// src/servicos/auth_servico.rs
-
 use jsonwebtoken::{encode, decode, Header, Validation, EncodingKey, DecodingKey};
 use serde::{Serialize, Deserialize};
 use chrono::{Utc, Duration};

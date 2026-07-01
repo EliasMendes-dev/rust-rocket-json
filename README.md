@@ -94,7 +94,7 @@ Request body:
 
 ```json
 {
-  "email": "elias@teste.com",
+  "email": "admin@teste.com",
   "senha": "123456"
 }
 ```
@@ -105,7 +105,7 @@ Resposta de sucesso:
 {
   "id": 1,
   "nome": "Elias",
-  "email": "elias@teste.com",
+  "email": "admin@teste.com",
   "token": "...jwt..."
 }
 ```
